@@ -5,6 +5,7 @@ if __name__ == "__main__":
     asignatura1 = Asignatura("Matematicas")
     asignatura2 = Asignatura("Castellano", "Salon 201")
     grupo1 = Grupo()
+    Grupo.asignarNombre("Grado 12")
 
     print(asignatura1)
     print(grupo1)
